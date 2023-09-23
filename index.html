@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Viejuners</title>
+    <style>
+        h3 {
+            background-color: rgb(71, 98, 107);"
+            color: rgb(170, 175, 220);
+            font-family: Arial, sans-serif;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        h5 {
+            background-color: rgb(84, 71, 107);"
+            color: rgb(170, 175, 220);
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        p {
+            color: rgb(249, 252, 251);
+            font-family: Arial, sans-serif;
+            font-size: 21px;
+            text-align: center;
+        }
+
+        label {
+            color: rgb(246, 248, 247);
+            font-family: Arial, sans-serif;
+            font-size: 28px;
+            margin-inline: 100px 140px 100px 140px;
+            text-align: center;
+        }
+
+        img {
+            text-align: center;
+            border-radius: 0px 80px 0px 80px;
+        }
+
+    </style>
+    
+</head>
+<body style="background-color: #31302e;" style="margin: margen: 100px 140px 100px 140px;"></body>> 
+    
+    <img src="https://user-images.githubusercontent.com/27650532/77754601-e8365180-702b-11ea-8bed-5bc14a43f869.png" alt="logotipo de El Puente" title="logotipo de El Puente" style="max-width: 100%; display: block; margin: 0 auto;">
+    <h1><a href="#imagen">Formularios Viejuners</a></h1>
+    <hr>
+    <br>
+    <h2><a href="#imagen">Introducción</a></h2>
+    <hr>
+    <br>
+    <p>
+        El club de la tercera edad de Entrepenes, Asturias, te envía la noble tarea de crear un formulario de admisión para su club. Por otro lado, la policía de esa localidad quiere que le fabriques un formulario para el robo temporal de bicicletas. Se sospecha que el club está viviendo una 5ª juventud y está detrás de estas travesuras.
+    </p>
+    <div style="text-align: center; height: 750px; line-height: 650px;">
+        <img src="https://github.com/TheBridge-FullStackDeveloper/html-pp-formularios/raw/master/abueletes.jpg" alt="Vida Viejuna" width="1200" height="700" style="display: block; margin: 0 auto;";>
+    </div>
+    
+    <div>
+        <img src="" alt="" style="display: block; margin: 0 auto;";>
+
+    <form style="alling-center;">
+        <fieldset>
+            <legend><a href="#imagen">Formularios Viejuners</a></legend>
+        
+            <h3>Tú</h3>
+            <label for="name">Nombre:</label>
+            <input type="text" name="nombre" id="name" placeholder="Escriba su nombre..." autofocus>
+            <label for="lastname">Apellidos:</label>
+            <input type="text" name="apellidos" id="lastname" placeholder="Escriba sus apellidos...">
+            <label for="age">Edad:</label>
+            <input type="number" name="edad" id="age" placeholder="Escriba o marque --->" tabindex="4">
+            
+        </fieldset>
+
+        <fieldset><br/>
+            <br/>
+            <br/>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="sex1" value="Mujer">
+                <label for="sex1">Mujer</label>
+                <input type="radio" name="sexo" id="sex2" value="Hombre">
+                <label for="sex2">Hombre</label>
+                </p>
+        
+                <p>Te sientes viejuner:
+                <input type="radio" name="viejuner" id="vie" value="SI">
+                <label for="vie">SI</label>
+                <input type="radio" name="viejuner" id="vie" value="NO">
+                <label for="vie">NO</label>
+                </p>
+                
+                <div style="text-align: center; height: 40vh; display: flex; flex-direction: column; justify-content: center;">
+                    <p>
+                        <h5>Escribe algo sobre tí:</h5>
+                        <textarea name="descripcion" id="description" cols="50" rows="10">Si si escribe aquí...</textarea>
+                    </p>
+                </div>
+                
+                <h3>Tus circunstancias</h3>
+                <p>
+                <label for="phone">Teléfono:</label>
+                <input type="tel" name="telefono" id="phone">
+                </p>
+        
+                <p>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="correo" id="email">
+                </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><a href="#imagen">Los ladronzuelos de bicicletas</a></legend>
+
+            <br>
+
+            <label for="day">Día:</label>
+            <input type="date" name="dia" id="day">
+
+            <br><br>
+
+            <label for="hour">Hora:</label>
+            <input type="time" name="hora" id="hour">
+
+            <br><br>
+
+            <label for="color">Color de la bicicleta:</label>
+            <input type="color" name="color" id="color">
+            <br><br>
+    
+            <label for="price">Precio:</label>
+            <input type="range" name="precio" id="price">
+            <br><br>
+    
+            <label for="type">Tipo de bicicleta:</label>
+            <select name="Tipo">
+            <option selected value="0"> Elige una opción </option>
+
+            <optgroup label="Paseo"> 
+                <option value="Señorial">Señorial</option> 
+                <option value="Anti-plebeyos">Anti-plebeyos</option> 
+                <option value="PorEncimaDelHombro">Por encima del hombro</option> 
+            </optgroup> 
+
+            <optgroup label="Montaña"> 
+                <option value="Gamusinos">Gamusinos</option> 
+                <option value="HuelefloresPremium">Hueleflores premium</option> 
+                <option value="FangoLover">Fango lover</option> 
+            </optgroup> 
+
+            <optgroup label="Carreras"> 
+                <option value="Metroymedio">Metroymedio</option> 
+                <option value="FluorescenteEdition">3 de la tarde. Fluorescente edition</option> 
+                <option value="Grupitors">Grupitors</option> 
+            </optgroup> 
+
+            </select>
+    
+            <h5>Accesorios:</h5>
+            <label><input type="checkbox" id="ruedines" value="ruedines">Ruedines</label><br>
+            <label><input type="checkbox" id="pegatinas" value="pegatinas">Pegatinas</label><br>
+            <label><input type="checkbox" id="cestita" value="cestita">Cestita</label><br>
+            <label><input type="checkbox" id="bomba" value="bomba">Bomba de aire</label><br>
+            <label><input type="checkbox" id="timbre" value="timbre">Timbre</label><br>
+            <label><input type="checkbox" id="foco" value="foco">Foco</label><br>
+    
+            <br/>
+            <h5>¿Qué marca era?</h5>
+
+            <select name="marca" id="marca" style="position: center;">
+                <p><option value="specialized">specialized</option></p>
+                <p><option value="trek">trek</option></p>
+                <p><option value="merida">merida</option></p>
+                <p><option value="scott">scott</option></p>
+                <option value="giant" selected>giant</option>
+            </select>
+    
+            </fieldset>
+    
+            <p>
+            <input type="reset" value="Reset">
+            </p>
+    
+            <p>
+            <button type="submit" onClick="alert('Enviado')">
+            Enviar formulario
+            </button>
+            </p>
+
+        </fieldset>
+            
+    </form>
+    </div>
+    
+    <br/>
+
+    <footer>
+        <p> Agradecimiento a EDEM y The Bridge por su apoyo y colaboración. </p> _ _
+            <p> &copy; BootCamp 2023 MKGBS </p>
+    </footer>
+</body>
+</html>
